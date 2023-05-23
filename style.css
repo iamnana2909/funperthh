@@ -1,0 +1,461 @@
+/* Author: Tran Thao Nguyen HUYNH
+Date: 
+Version: 
+*/
+
+/*
+COLOURS
+#000000 - black (for text)
+#ffa500 - orange
+#003579 - navy blue
+#225c71 - dark teal
+#c62d03 - burnt red
+#FFFFCC - soft yellow
+#00FFFF - cyan
+*/
+@import url('https://fonts.googleapis.com/css2?family=Spinnaker&display=swap');
+
+/*GLOBAL STYLES
+----------------------------------------------
+*/
+body {
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Spinnaker', sans-serif;
+    color: #000000;
+    /* black */
+    margin: 0;
+}
+
+#wrapper {
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #FFFFCC;
+}
+
+h1 {
+    color: #003579;
+    font-size: 2em;
+    font-weight: 700;
+
+}
+
+h2 {
+    color: #003579;
+    font-size: 1.6em;
+    font-weight: 700;
+}
+
+h3 {
+    color: #003579;
+
+}
+
+a {
+    text-decoration: none;
+    color: #225c71;
+}
+
+a:visited {
+    color: #c62d03;
+}
+
+/*HEADER
+----------------------------------------------
+*/
+header {
+    background: #FFFFCC url(Image/banner.png);
+    height: 430px;
+    color: #000000;
+}
+
+header h1 {
+    visibility: hidden;
+}
+
+header img {
+    position: relative;
+    top: 25px;
+    left: 10px;
+    z-index: 50;
+}
+
+/* Button-style link
+------------------------------------------------- */
+article a {
+    color: #003579;
+    text-decoration: none;
+    border: 2px solid #003579;
+    padding: 5px 20px;
+}
+
+article a:visited {
+    color: #003579;
+}
+
+/*BODY
+----------------------------------------------
+*/
+/*CONTENT AREA 1
+----------------------------------------------
+*/
+#column {
+    background-color: #FFFFCC;
+    color: #000000;
+    display: flex;
+    padding: 25px;
+}
+
+#column h2 {
+    display: block;
+    margin: 0;
+    padding: 50px;
+}
+
+#column div {
+    padding-left: 25px;
+}
+
+/*CONTENT AREA 2
+----------------------------------------------
+*/
+
+#acknowledgement {
+    background-color: rgba(0, 53, 151, 0.4);
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+#disabilityaccess {
+    display: relative;
+    padding: 50px;
+}
+
+#disabilityaccess p {
+    width: 550px;
+}
+
+#disabilityaccess div {
+    display: flex;
+}
+
+#disabilityaccess img {
+    margin: 30px;
+    display: inline;
+    padding-left: 50px;
+}
+
+/*SIDEBAR
+----------------------------------------------
+*/
+aside {
+    padding: 0px 25px 0px 25px;
+    display: relative;
+}
+
+aside div {
+    display: flex;
+}
+
+aside img {
+    padding-left: 50px;
+}
+
+aside section {
+    width: 600px;
+    height: 200px;
+}
+
+aside p {
+    margin: 0px 0px 16px 50px;
+}
+
+aside h2 {
+    color: #003579;
+    display: block;
+    margin: 0;
+    padding: 25px 25px 25px 50px;
+}
+
+
+aside a {
+    margin-left: 50px;
+    color: #003579;
+    text-decoration: none;
+    border: 2px groove #003579;
+    padding: 5px 20px;
+}
+
+blockquote {
+    justify-content: center;
+    font-size: 20px;
+    border-left: 5px solid #003579;
+    width: inherit;
+    padding: 10px;
+    margin: 100px;
+}
+
+blockquote p {
+    margin-bottom: 10px;
+}
+
+/* About us
+----------------------------------------------
+*/
+.testimonial {
+    margin: auto;
+    width: 1000px;
+    padding: 0px 20px 0px 20px;
+    display: flex;
+    grid-template-columns: caclc(80% - 30%) calc (30% - 45%);
+    grid-gap: 15px;
+    height: 350px;
+}
+
+.testimonial p {
+    width: 333px;
+}
+
+.center {
+    margin: 30px;
+    width: 1100px;
+}
+
+#QA section {
+    border: 3px ridge #003579;
+    width: 800px;
+    margin: auto;
+}
+
+#QA h2 {
+    margin-bottom: 30px;
+}
+
+#QA p {
+    padding: 0px 16px 0px 16px;
+
+}
+
+.vision {
+    margin-top: 55px;
+    background-color: rgba(0, 255, 255, 0.4);
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    width: 1150px;
+    height: 300px;
+}
+
+.vision {
+    margin-top: 55px;
+    background-color: rgba(0, 255, 255, 0.4);
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    width: 1150px;
+    height: 330px;
+}
+
+.vision p {
+    width: 950px;
+    padding-left: 30px;
+}
+.vision h2 {
+    padding: 20px 0px 0px 20px;
+    
+}
+
+
+/*Explore
+----------------------------------------------
+*/
+.video {
+    padding-left: 300px;
+    margin-top: 50px;
+}
+
+
+.pick {
+    padding-left: 25px;
+}
+.trips {
+    padding: 20px 20px 14px 20px;
+    display: flex;
+    grid-template-columns: caclc(80% - 30%) calc (30% - 45%);
+    grid-gap: 15px;
+    height: 450px;
+}
+
+.trips p {
+    padding-left: 20px;
+}
+
+.trips h2 {
+    margin: 25px 0px 25px 10px;
+}
+
+.trips a {
+    margin-left: 20px;
+}
+
+#adventure {
+    background-color: rgba(0, 53, 151, 0.4);
+    border-radius: 20px;
+}
+
+#family {
+    background-color: rgba(255, 165, 0, 0.4);
+    border-radius: 20px;
+}
+
+#relaxation {
+    background-color: rgba(0, 255, 255, 0.4);
+    border-radius: 20px;
+}
+
+.perthevents {
+        margin: 25px;
+        
+}
+
+/*Destinations
+----------------------------------------------
+*/
+.destinations {
+    margin: 25px;
+    width: 700p;
+}
+/*NAVIGATION
+----------------------------------------------
+*/
+nav {
+    background-color: rgba(255, 165, 0, 0.05);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    /* = 1200px */
+    padding-top: 50px;
+
+}
+
+nav ul {
+    padding-left: 200px;
+    list-style: none;
+
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    color: #ffffff;
+    /* white */
+    text-decoration: none;
+    padding: 10px 20px 15px 20px;
+}
+
+nav a:visited {
+    color: #ffffff;
+    /* white */
+}
+
+nav a:hover {
+    background-color: #003579;
+
+}
+
+nav span {
+    padding: 10px 20px 15px 20px;
+    background-color: #003579;
+    color: #ffffff;
+}
+
+/* Contact form
+------------------------------------------------- */
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    /* Full width */
+    padding: 12px;
+    /* Some padding */
+    border: 1px solid #ccc;
+    /* Gray border */
+    border-radius: 4px;
+    /* Rounded borders */
+    box-sizing: border-box;
+    /* Make sure that padding and width stays in place */
+    margin-top: 6px;
+    /* Add a top margin */
+    margin-bottom: 16px;
+    /* Bottom margin */
+    resize: vertical
+        /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #003579;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #003579;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+    width: 650px;
+    border-radius: 5px;
+    background-color: rgba(0, 53, 151, 0.2);
+    padding: 20px;
+    margin: 25px;
+}
+
+iframe {
+    margin: 25px;
+}
+.findus {
+    margin: 25px;
+}
+
+/* footer 
+------------------------------------------------- */
+footer {
+    margin-top: 50px;
+    padding: 50px;
+    display: flex;
+    font-size: 80%;
+    justify-content: space-evenly;
+}
+
+footer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgba(255, 165, 0, 0.4);
+}
+
+footer ul {
+    list-style: none;
+
+}
+
+footer li {
+    display: inline;
+    padding: 5px 10px 5px;
+}
+
+address {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 200px;
+}
