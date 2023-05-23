@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title> Contact </title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="wrapper">
+    <header>
+        <a href="index.html"><img src="Image/logo.png" alt="Fun Perth logo" width="160px" height="61px"></a>
+    </header>
+<!----------NAVIGATION---------->
+<nav>
+    <ul>
+        <li><a href="aboutus.html" title="About us">About us</a></li>
+        <li><a href="explore.html" title="Explore">Explore</a></li>
+        <li><a href="destinations.html" title="Destinations">Destination</a></li>
+        <li><span>Contact</span></li>
+    </ul>
+</nav>
+<!----------CONTACT FORM---------->
+
+<div class="container">
+<h1>CONTACT US</h1>
+  <form action="action_page.php">
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write your questions/feedback here" style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
+</div>
+<!----------MAP--------->
+<h1 class="findus">Find us at</h1>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3386.5314456077053!2d115.86657767531776!3d-31.91932587403383!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2a32baa4dd193701%3A0x63fb3fe7a1421dc!2sEdith%20Cowan%20University%20Mount%20Lawley%20Campus!5e0!3m2!1svi!2sau!4v1684583485018!5m2!1svi!2sau" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+<!----------FOOTER---------->
+<footer>
+    <p>&#169;FunPerth</p>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="PDF/privacy%20policy.pdf">Privacy Policy</a></li>
+        <li><a href="PDF/short_guide_to_copyright.pdf">Copyright Policy</a></li>
+        <li><a href="aboutus.html">About us</a></li>
+    </ul>
+    <address>
+        Contact us at:
+        <a href="mailto:funperth@gmail.com">funperth@gmail.com</a>
+    </address>
+</footer>
+</div>
+</body>
+</html>
